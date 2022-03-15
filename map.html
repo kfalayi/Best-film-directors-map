@@ -1,55 +1,29 @@
-<title>Kunle Falayi's Portfolio</title>
-          <link rel="stylesheet" href="style.css">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-     </head>
-     
-
-
-
 <!DOCTYPE html>
 <html>
 
-     	<head>
-	<body>
-	  <div id="container">
-	       <p class="top">
-		    <a href="https://kfalayi.github.io/">
-		    <span class="name" width="240" height="200">KUNLE FALAYI</span>
-		    </a>
-	       </p>
-		    <hr>
-		    <div class="buttons">
-			 <a href="https://kfalayi.github.io/portfolio.html">
-			      <span class="check">Portfolio</span>
-			 </a>
-			 <a href="https://kfalayi.github.io/resume.html">
-			      <span class="check">Resume</span>
-			 </a>
-		    </div>
-                    <hr>
-
+    <head>
 	<title>Your Map: Please Change this title</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- 
-THESE ARE CALLS TO DIFFERENT EXTERNAL FILES
-MAPBOX HAS A JAVASCRIPT LIBRARY THAT YOU NEED
-THE NEXT IS A CSS FILE FOR THE MAP
-AND THE FINAL ONE IS THE LIBRARY FOR JQUERY, WHICH I USE FOR THE PULLDOWN MENU.
- -->
+	THESE ARE CALLS TO DIFFERENT EXTERNAL FILES
+	MAPBOX HAS A JAVASCRIPT LIBRARY THAT YOU NEED
+	THE NEXT IS A CSS FILE FOR THE MAP
+	AND THE FINAL ONE IS THE LIBRARY FOR JQUERY, WHICH I USE FOR THE PULLDOWN MENU.
+ 	-->
 
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/5.1.5/turf.min.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<!-- 
-THESE ARE CSS STYLES WHAT YOU SHOULD FREELY PLAY WITH
-THE STYLES THAT BEGIN WITH # RELATE TO IDS, 
-THE ONES THAT BEGIN WITH . RELATE TO CLASSES
-WHEN YOU GOT EVERYTHING WORKING YOU CAN PLAY WITH THESE AND ADD TO THESE 
-TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
- -->
+	THESE ARE CSS STYLES WHAT YOU SHOULD FREELY PLAY WITH
+	THE STYLES THAT BEGIN WITH # RELATE TO IDS, 
+	THE ONES THAT BEGIN WITH . RELATE TO CLASSES
+	WHEN YOU GOT EVERYTHING WORKING YOU CAN PLAY WITH THESE AND ADD TO THESE 
+	TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
+	-->
 
 	<style>
 		::-webkit-scrollbar {
@@ -138,14 +112,30 @@ TO MAKE YOUR FONTS AND LAYOUTS NICE AND LOVELY
 <!-- THE BODY OF THE HTML BEGINS HERE -->
 
 <body>
-
+	<div id="container">
+			<p class="top">
+			<a href="https://kfalayi.github.io/">
+			<span class="name" width="240" height="200">KUNLE FALAYI</span>
+			</a>
+			</p>
+			<hr>
+			<div class="buttons">
+				<a href="https://kfalayi.github.io/portfolio.html">
+					<span class="check">Portfolio</span>
+				</a>
+				<a href="https://kfalayi.github.io/resume.html">
+					<span class="check">Resume</span>
+				</a>
+			</div>
+	</div>	
+			<hr>
 	<!-- 
-THE DIVS BELOW ARE SUPER IMPORTANT:
-THEY ARE WHERE THE MAP WILL GO, AND YOUR ARTICLE TEXT WILL GO
-YOU WILL CERTAINLY WANT TO STYLE THESE, BOTH THEIR PLACEMENT AND CONTENT 
-THE MAP SHOULD BE EMPTY.
-WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE ARTICLEPLACE DIV
- -->
+		THE DIVS BELOW ARE SUPER IMPORTANT:
+		THEY ARE WHERE THE MAP WILL GO, AND YOUR ARTICLE TEXT WILL GO
+		YOU WILL CERTAINLY WANT TO STYLE THESE, BOTH THEIR PLACEMENT AND CONTENT 
+		THE MAP SHOULD BE EMPTY.
+		WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE ARTICLEPLACE DIV
+		-->
 
 
 	<div id='map'>
